@@ -1,5 +1,7 @@
 # ReactJS Notes and stuff
 
+***NOTE*** This repo contains [git submodules](https://git-scm.com/book/id/v2/Git-Tools-Submodules) for each of the projects that I have worked on while doing the course. To clone, push, and all the other git stuff you'll have to consider those directories.
+
 ## Table of Contents
 
 [React Key Concepts](#react-key-concepts)
