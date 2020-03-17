@@ -582,4 +582,9 @@ handleClick3 = () => console.log('button 3');
 
 More on this can be explained in the ReactJS docs [here](https://reactjs.org/docs/handling-events.html).
 
-###
+### 33 Deploying the app
+
+`index.css` is created by `create-react-app` command to provide a standard base style across all browsers.
+
+### 34 React and ReactDom
+
