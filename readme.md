@@ -6,7 +6,7 @@
 
 [React Key Concepts](#react-key-concepts)
 
-[React Basics](#react-basics・３月６日・３月１３日・３月１５日)
+[React Basics](#react-basics・３月６日・３月１３日・３月１５日・３月１６日・３月１７日)
 
 - [Create React App](#6-7---create-react-app)
 - [Class Components](#10---class-components)
@@ -23,6 +23,9 @@
 - [Where to put state](#27---where-to-put-state)
 - [Class Methods and Arrows](#28---class-methods-and-arrow-functions)
 - [Exercise Event Binding and this](#29---exercise-even-binding)
+- [Deploying the app](#33---deploying-the-app)
+- [React and ReactDOM](#34---react-and-reactdom)
+- [Update React and packages](#-35---latest-react-package-updates)
 
 ## React Key Concepts
 
@@ -582,9 +585,25 @@ handleClick3 = () => console.log('button 3');
 
 More on this can be explained in the ReactJS docs [here](https://reactjs.org/docs/handling-events.html).
 
-### 33 Deploying the app
+### 33 - Deploying the app
 
 `index.css` is created by `create-react-app` command to provide a standard base style across all browsers.
 
-### 34 React and ReactDom
+### 34 - React and ReactDom
+
+> React is the API but ReactDOM is for rendering the view.
+
+React acts like an engine but that engine can have many different kinds of views eg: Native, 360, Desktop, that run on that engine. So pretty much there is a difference.
+
+You can actually write it all in HTML and JavaScript but why the hell would you do that?
+
+### 35 - Latest react package updates
+
+- package.json
+
+`^[version]` syntax inside package.json means that whatever package that this version number is a reference to will be automatically upgraded to the most recent stable version when an update (npm/yarn) occurs.
+
+- yarn.lock
+
+File that is created on `yarn install`. Ensures that the versions of packages are consistent with what's listed in the package.json file.
 
