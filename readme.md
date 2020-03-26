@@ -74,10 +74,6 @@ Virtual DOM
 
 React is essentially just a UI library which means the concepts are limited to managing Dom interactions. It is unbiased to which toolset you use. You can use it any where too.
 
-### 7 - How to be a good react dev
-
-*Basic shit*
-
 ## React Basics・３月６日・３月１３日・３月１５日
 
 ### 6-7 - Create React App
